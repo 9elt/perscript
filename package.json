@@ -1,0 +1,9 @@
+{
+  "name": "perscript",
+  "scripts": {
+    "build:firefox": "web-ext build -o -s ./src -a ./dist"
+  },
+  "devDependencies": {
+    "web-ext": "^7.6.2"
+  }
+}

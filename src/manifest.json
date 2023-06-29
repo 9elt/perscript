@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "PerScript",
+    "version": "1.0.0",
+    "description": "Register persistent scripts on websites via console",
+    "permissions": ["storage"],
+    "host_permissions": ["<all_urls>"],
+    "content_scripts": [
+        {
+            "js": ["inject.js"],
+            "matches": ["<all_urls>"]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["index.js"],
+            "matches": ["<all_urls>"]
+        }
+    ]
+}
