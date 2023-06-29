@@ -4,7 +4,8 @@ A browser extension to register persistent scripts on websites via console
 
 ### usage
 
-*dev tools console*
+navigate to the website you want to add the scripts to,  
+open the ***dev tools console***:
 
 ```javascript
 > ps.add(
@@ -28,4 +29,4 @@ A browser extension to register persistent scripts on websites via console
 'my persistent function'
 ```
 
-`ps.eval` will be automatically called on every page load
+`ps.eval` will be automatically called on page load
